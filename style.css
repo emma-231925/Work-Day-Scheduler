@@ -38,9 +38,9 @@ textarea {
 }
 
 .hour {
-  /* background-color: #ffffff;
-  color: #000000;
-  border-top: 1px dashed #000000; */
+  font-weight: 100;
+  border-right: 1px solid gray;
+  color: black;
 }
 
 .past {
@@ -59,7 +59,9 @@ textarea {
 }
 
 .saveBtn {
-  border-left: 1px solid gray;
+  text-align: center;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
   background-color: lightsteelblue;

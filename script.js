@@ -6,7 +6,7 @@ $(document).ready(function() {
 
     //adds today's date to currentDay p tag in html
     function displayDate(){
-        var todaysDate = moment().format('dddd Do MMMM, YYYY');
+        var todaysDate = moment().format('dddd Do MMMM YYYY');
         currentDateEl.text(todaysDate);
     }
 
