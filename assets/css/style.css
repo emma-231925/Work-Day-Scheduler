@@ -11,6 +11,7 @@ textarea {
   color: #000000;
   border-left: 1px solid black;
   padding: 10px;
+  border-top: 1px solid white;
 }
 
 .jumbotron {
@@ -25,10 +26,13 @@ textarea {
   white-space: pre-wrap;
 }
 
+.container{
+  border-left: 1px solid black;
+}
+
 .row {
   white-space: pre-wrap;
   height: 80px;
-  border-top: 1px solid white;
 }
 
 .textInput{
@@ -36,9 +40,10 @@ textarea {
 }
 
 .hour {
+  text-align: center;
+  padding: 10px;
   width: 15%;
   font-weight: 100;
-  border-right: 1px solid gray;
   color: black;
 }
 
@@ -60,8 +65,9 @@ textarea {
 .saveBtn {
   width: 15%;
   text-align: center;
-  /* border-top-left-radius: 15px;
-  border-bottom-left-radius: 15px; */
+  border: solid 1px;
+  border-left: 1px solid black;
+  border-bottom: 0px;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
   background-color: lightsteelblue;
